@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 1px;
 }
 /*navegador*/
 
@@ -46,6 +46,8 @@ html. body{
 .carousel-inner{
   width:100%;
   height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .carousel-inner img{
   width:100%;
@@ -131,4 +133,9 @@ hr.light-100{
 
 .c{
     margin: 10px;     
+}
+
+.centrado{
+    text-align:justify;
+    margin: 50px
 }
