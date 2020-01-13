@@ -4,8 +4,10 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/escuela.css">
         <link rel="stylesheet" href="css/estilos.css">
         <script src="https://kit.fontawesome.com/946d6368af.js" crossorigin="anonymous"></script>
+
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -36,7 +38,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="escuela.html">Escuela de formacion</a>
                     </li>   
-
+                                     
                     <li class="nav-item">
                         <a class="nav-link" href="equipofm.html">Novatos</a>
                     </li>
@@ -70,98 +72,79 @@
         <!-- navegador -->
         <div class="container">
 
-            <h1 class="text-center display-4 my-4">Noticias</h1>
-            <hr class="dark">
-            <div class="row">
-                <div class="media">
-                    <img src="img/banner.jpg" class="mr-4" alt="...">
-                    <div class="media-body">
-                        <h1 class="mt-0">Media heading</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quidem distinctio, amet officia, cupiditate fugiat iusto similique neque adipisci dolor, doloremque quasi illum porro sapiente natus. Repudiandae ad optio necessitatibus?</p>
-                    </div>
-                </div>
 
-                <div class="media gris">
-                    <img src="img/banner2.jpg" class="mr-4" alt="...">
-                    <div class="media-body">
-                        <h1 class="mt-0">Media heading</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum eius debitis nihil, corporis eum dolores fuga vitae assumenda explicabo ullam voluptatem nostrum quos animi, delectus earum maiores, quis, tenetur ab!</p>
-                    </div>
-                </div>
 
-                <div class="media">
-                    <img src="img/1.jpeg" class="mr-4" alt="...">
-                    <div class="media-body">
-                        <h1 class="mt-0">Media heading</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita perferendis voluptas in perspiciatis! Hic a, quo quam atque ab dignissimos autem voluptatum fugiat veniam iste, magni voluptate facilis mollitia officiis.</p>
-                    </div>
-                </div>
-                <div class="media gris">
-                    <img src="img/banner2.jpg" class="mr-4" alt="...">
-                    <div class="media-body">
-                        <h1 class="mt-0">Media heading</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa illo asperiores debitis voluptas non quo impedit, sunt ipsam fugit explicabo numquam cumque, nisi nesciunt sequi sed sint porro eius nobislorem.</p>
-                    </div>
-                </div>
 
+
+            <div>
+                <h1 class="text-center display-4 my-4">Escuela de formacion Tricolor</h1>
+                <hr class="dark">
             </div>
 
 
-            <hr class="dark">
-
-            <h1 class="text-center display-4 my-4">Galeria de fotos</h1>
-            <hr class="dark">
-
-            <div class="container">
-
-                <div class="card-columns" id="galeria">
-                    <!--div class="card">
-<a href="" data-toggle="modal" data-target="#exampleModal">
-<img src="img/1.jpeg" alt="" class="card-img-top">
-</a>
-</div>
-
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-
-<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
-<span aria-hidden="true">&times;</span>
-</button>
-
-<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-<img src="img/1.jpeg" alt="" class="img-fluid rounded">
-</div>
-</div-->
-
-                    <script>
-                        var imagenes = [1,2,3,4,5,6,7,8,9,10,11];
-                        var galeria = document.getElementById('galeria');
-
-                        for(imagen of imagenes){
-                            galeria.innerHTML += `
-<div class="card">
-<a href="" data-toggle="modal" data-target="#id${imagen}">
-<img src="img/${imagen}.jpeg" alt="" class="card-img-top">
-                        </a>
-                        </div>
-
-<div class="modal fade" id="id${imagen}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-
-<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
-<span aria-hidden="true">&times;</span>
-                        </button>
-
-<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-<img src="img/${imagen}.jpeg" alt="" class="img-fluid rounded">
-                        </div>
-                        </div>
-
-`}
-                    </script>
-                </div>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="sub7-tab" data-toggle="tab" href="#sub7" role="tab" aria-controls="home" aria-selected="true">Sub 7</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="sub9-tab" data-toggle="tab" href="#sub9" role="tab" aria-controls="profile" aria-selected="false">Sub 9</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="sub11-tab" data-toggle="tab" href="#sub11" role="tab" aria-controls="contact" aria-selected="false">Sub 11</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="sub13-tab" data-toggle="tab" href="#sub13" role="tab" aria-controls="contact" aria-selected="false">Sub 13</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="sub15-tab" data-toggle="tab" href="#sub15" role="tab" aria-controls="contact" aria-selected="false">Sub 15</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="sub7" role="tabpanel" aria-labelledby="sub7-tab"><h1>Entrenador: </h1><img src="img/sub7.jpg" alt=""></div>
+                <div class="tab-pane fade" id="sub9" role="tabpanel" aria-labelledby="sub9-tab"><h1>Entrenador: </h1><img src="img/sub9.jpg" alt=""></div>
+                <div class="tab-pane fade" id="sub11" role="tabpanel" aria-labelledby="sub11-tab"><h1>Entrenador: </h1><img src="img/sub11.jpg" alt=""></div>
+                <div class="tab-pane fade" id="sub13" role="tabpanel" aria-labelledby="sub13-tab"><h1>Entrenador: </h1><img src="img/sub13.jpg" alt=""></div>
+                <div class="tab-pane fade" id="sub15" role="tabpanel" aria-labelledby="sub15-tab">
+                    <h1>Entrenador: </h1><img src="img/sub15.jpg" alt=""></div>
             </div>
             <br>
 
-            <a href="noticias.html" class="btn btn-outline-secondary c">Ver mas</a>
+
+            <div class="row">
+                <div class="col">
+                    <h5>Area Fisica</h3>
+                    <hr class="dark">
+                    <p>asdasdsa</p>
+                    <p>dsfdssd</p>
+                    <p>gfgdfgdf</p>
+                    <p>hhhh</p>
+                </div>
+                <div class="col">
+                    <h5>Area Medica</h5>
+                    <hr class="dark">
+                    <p>asdasdsa</p>
+                    <p>dsfdssd</p>
+                    <p>gfgdfgdf</p>
+                    <p>hhhh</p>
+                </div>
+                <div class="col">
+                    <h5>Arqueros</h5>
+                    <hr class="dark">
+                    <p>asdasdsa</p>
+                    <p>dsfdssd</p>
+                    <p>gfgdfgdf</p>
+                    <p>hhhh</p>
+                </div>
+                <div class="col">
+                    <h5>Staff</h5>
+                    <hr class="dark">
+                    <p>asdasdsa</p>
+                    <p>dsfdssd</p>
+                    <p>gfgdfgdf</p>
+                    <p>hhhh</p>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -169,27 +152,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </body>
 
         <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
         </div>
@@ -229,8 +191,8 @@
                 </div>
                 <div class="col-12">
                     <hr class="light">
-                    <h5>&copy; JsK +569 49258721</h5>
-                </div>
+                    <h5>Copyright &copy; Página oficila CD Tricolor de Paine - Hecho por JsK Web</h5>
+                </div> 
             </div>
         </div>
     </footer>
@@ -243,5 +205,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/tab.js"></script>
+
     </body>
 </html>

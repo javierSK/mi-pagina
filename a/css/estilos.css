@@ -160,6 +160,10 @@ hr.light-100{
 }
 
 .centrado{
-    text-align:justify;
+    text-align:center;
     margin: 50px
+}
+
+.centrado img{
+  width: 100%;
 }
