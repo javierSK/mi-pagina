@@ -1,3 +1,6 @@
+@import url(equipo.css);
+@import url(escuela.css);
+
 *{
     margin: 0;
     padding: 1px;
@@ -167,3 +170,4 @@ hr.light-100{
 .centrado img{
   width: 100%;
 }
+
