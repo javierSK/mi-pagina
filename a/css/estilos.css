@@ -1,11 +1,14 @@
+@import url(equipo.css);
+@import url(escuela.css);
+
 *{
     margin: 0;
-    padding: 1px;
+    padding: 0px;
 }
 
 html{
     scroll-behavior: smooth;
- 
+
 }
 
 .cabezera img{
@@ -21,9 +24,9 @@ html{
     bottom: 40px;
     right: 50px;
     color: #fff;
-    
+
     border-radius: 50px;
-    
+
     text-decoration: none;
     text-align: center;
     line-height: 50px;
@@ -32,14 +35,12 @@ html{
 }
 
 .container{
-  width: 100%;
-  height: 100%;
-  
+    width: auto;
 }
 
 .bg-nav{
     background-color: #181733;
-    
+
 }
 
 .navbar-item{
@@ -66,16 +67,16 @@ html{
 
 /*carrusel*/
 .tales {
-  width: 100%;
+    width: 100%;
 }
 .carousel-inner{
-  width:100%;
-  height: 100%;
+    width:100%;
+    height: 100%;
 
 }
 .carousel-inner img{
-  width:100%;
-  height: 450px
+    width:100%;
+    height: 450px
 }
 
 
@@ -93,7 +94,8 @@ html{
 /*carrusel*/
 
 .card img{
-    max-height: 190px;
+    width: 100%;
+    border: 2px solid #000000;
 }
 
 .fot img{
@@ -136,18 +138,20 @@ hr.light-100{
 #banner img{
     width: 90%;
     max-height: 650px;
-   display: block;
+    display: block;
     margin: auto;
 }
 
-.media{
-    padding: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
 
 .media img{
     width: 300px;
+    float: left;
+    padding: 10px;
+}
+
+.media p{
+    text-align: justify;
+    
 }
 
 
@@ -165,5 +169,6 @@ hr.light-100{
 }
 
 .centrado img{
-  width: 100%;
+    width: 100%;
 }
+
