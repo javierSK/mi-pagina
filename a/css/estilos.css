@@ -13,7 +13,7 @@ html{
 
 .cabezera img{
     width: 100%;
-    height: 400px;
+    max-height: 400px;
 }
 
 .gotopbtn{
@@ -76,7 +76,7 @@ html{
 }
 .carousel-inner img{
     width:100%;
-    height: 450px
+    max-height: 400px;
 }
 
 
@@ -92,6 +92,9 @@ html{
 @media only screen and (max-width: 479px) {}
 
 /*carrusel*/
+.card{
+    margin: 3px;
+}
 
 .card img{
     width: 100%;
@@ -143,15 +146,21 @@ hr.light-100{
 }
 
 
-.media img{
+.media-body img{
     width: 300px;
     float: left;
     padding: 10px;
 }
 
-.media p{
+.media-body p{
     text-align: justify;
+    margin: 5px;
+    padding: 3px;
     
+}
+
+.media h1{
+font-size: 30px;
 }
 
 
@@ -163,12 +172,16 @@ hr.light-100{
     margin: 10px;     
 }
 
-.centrado{
-    text-align:center;
-    margin: 50px
-}
 
 .centrado img{
     width: 100%;
 }
+
+
+.club p {
+    text-align: justify;
+    padding: 3px;
+}
+
+
 
