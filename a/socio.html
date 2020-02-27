@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/sSw.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/socio.css">
+        <link rel="stylesheet" href="bbdd/cn.php">
+        <script src="js/validar.js"></script>
+        <script src="https://kit.fontawesome.com/946d6368af.js" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+
+    <body>
+
+        <!-- navegador -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="">Tricolor de Paine</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="club.html">El club</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipo.html">Primer equipo</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="escuela.html">Escuela de formación</a>
+                    </li>   
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="novatos.html">Novatos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipofm.html">Fútbol femenino</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Local</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">Noticias</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Tienda</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="socio.html">Hazte Socio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="color">
+            <br>
+        </div>
+        <div class="container">
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h3 class="display-4">Importante leer</h1>
+                    <p class="lead">Después de enviar el formulario nos pondremos en contacto con usted mediante correo/teléfono proporcionado</p>
+                    <p class="lead">***El monto mínimo a ingresar es de 3000 pesos***</p>
+                    <p>Cualquier duda y/o consulta contactarse con nosotros mediante nuestro correo: tricolormunicipaldepaine@gmail.com o al WhatsApp: +56963000818</p>
+                </div>
+            </div>
+
+
+            <h1 class="text-center display-4 my-4">Hazte Socio</h1>
+            <hr class="dark">
+
+            <form action="registrar.php" method="post" class="form-register" onsubmit="return validar();">
+                <h2 class="form_titulo">Ingrese sus datos</h2>
+                <div class="contenedor-inputs"> 
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" class="input-100"  required >
+                    <input type="email" id="correo" name="Correo" placeholder="Correo" class="input-100"  required>
+                    <input type="text" id="direccion" name="Direccion" placeholder="Direccion" class="input-100"  required>
+                    <input type="text" id="region" name="Region" placeholder="Region" class="input-50" required >
+                    <input type="text" id="comuna" name="Comuna" placeholder="Comuna" class="input-50"  required>
+                    <input type="text" id="monto" name="Monto" placeholder="Monto" class="input-50" required >
+                    <input type="text" id="telefono"  name="Telefono" placeholder="Telefono" class="input-50" required >
+                    <input type="submit" value="Enviar" class="btn-enviar">
+                </div>
+            </form>
+
+
+
+        </div>
+        <br>
+        <div class="color">
+            <br>
+        </div>
+        <footer>
+            <div class="container-fluid padding fot">
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <hr class="light">
+                        <img src="img/logo.png" alt="">
+                        <hr class="light">
+                        <p>+56963000818</p>
+                        <p>tricolormunicipaldepaine@gmail.com</p>
+                        <p>18 de Septiembre 241, Paine, RM</p>
+                        <p>Estadio Municipal de Paine </p>
+                    </div>
+                    <div class="col-md-6">
+                        <hr class="light">
+                        <h5>Redes Sociales</h5>
+                        <br>
+                        <hr class="light">
+                        <p>Facebook: Tricolor de Paine</p>
+                        <p>Instagram: @tricolor_de_paine</p>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light">
+                        <h5>Copyright &copy; Página oficial CD Tricolor de Paine - Hecho por JsK Web</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+        <!-- Optional JavaScript -->
+        <script src="js/swiper.min.js" type="text/javascript">
+        </script>
+
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 500,
+                    modifier: 1,
+                    slideShadows : true,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            });
+        </script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>

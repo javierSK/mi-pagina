@@ -1,0 +1,50 @@
+
+
+.form-register{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+
+.form_titulo{
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    margin: 3px;
+    padding: 6px;
+    font-size: 16px;
+    border: 1px solid darkgray;
+}
+
+.input-50{
+    width: 50%;
+}
+
+.input-100{
+    width: 100%;
+}
+
+.btn-enviar{
+    background: crimson;
+    color: white;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+}
