@@ -1,10 +1,1 @@
-.tab-pane img{
-    width: 100%;
-    max-height: 500px;
-}
-
-.tab-pane h1{
-    text-align: center;
-}
-
-
+.tab-pane img{width: 100%;max-height: 500px;}.tab-pane h1{text-align: center;font-size: 25px;}
